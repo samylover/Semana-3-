@@ -1,0 +1,116 @@
+style.css
+
+h1{
+    font-family: Bebas neue;
+    font-size: 200px;
+   }
+
+   h5{
+   	font-family: menulis;
+   	font-size: 20px;
+   	color: #6E2C00;
+   }
+
+   body{
+   	background-color:#FAD7A0;
+   }
+
+p {
+    font-family: menulis;
+    font-size: 20px;
+    text-align: justify;
+}
+
+header{
+	font-family:bebas neue; ;
+	font-size: 40px;
+	background-color:#FAD7A0  ;
+	height:100;
+
+}
+
+header ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color:#E59866;
+}
+
+li {
+    float: right;
+    font-family: bebas neue;
+}
+
+li a {
+    display: block;
+    color: #311802;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color:#F0B27A ;
+}
+
+.active {
+    background-color:#F0B27A ;
+}
+
+
+section{
+    border: 200px ;
+    padding:  25px;
+    margin-left: 300px;
+    font-family: bebas neue;
+    font-size: 30;
+	background-color:#F0B27A;
+	border-left: 1px #F9E79F;
+}
+
+aside{
+	font-family: Bebas neue;
+    font-size: 30px;
+    float: left;
+    max-width: 200px;
+    margin: 0;
+    padding: 1em;
+    background-color:#E59866;
+    height: 900px;
+
+}
+dt{
+    font-size: 60px;
+}
+
+dt a{
+	text-decoration: none;
+	color: black;
+}
+
+dt a:hover:not(.active) {
+    background-color:#F0B27A ;
+}
+
+.active {
+    background-color:#F0B27A ;
+}
+
+
+
+dd{
+	text-align: left;
+	font-size: 36px;
+	color:#311802;
+}
+
+footer{
+	background-color:#FAD7A0;
+	height:70px; 
+}
+
+footer i{
+	float: right;
+}
+
+
